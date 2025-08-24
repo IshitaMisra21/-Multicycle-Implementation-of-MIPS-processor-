@@ -1,2 +1,3 @@
 # -Multicycle-Implementation-of-MIPS-processor-using-Verilog
 A verilog project to understand and implement the concepts associated with a MIPS processor using Verilog HDL  
+Designed and implemented a simplified 32-bit processor model to understand computer architecture concepts and instruction execution steps. Focused on arithmetic, logic, memory, and control operations while allowing sharing of resources like memory and ALU in a multi-cycle approach. Multi-cycle approach allows reuse of hardware as well as shorter time bottleneck over single-cycle implementation, where the clock period has to be long enough to support the longest instruction. Validated the processor through simulation and testing, through customized test benches.
